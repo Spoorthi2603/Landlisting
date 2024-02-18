@@ -346,36 +346,10 @@ if(isset($_POST['add']))
 										<div class="form-group row">
 											<label class="col-lg-2 col-form-label">Feature</label>
 											<div class="col-lg-9">
-											<p class="alert alert-danger">* Important Please Do Not Remove Below Content Only Change <b>Yes</b> Or <b>No</b> or Details and Do Not Add More Details</p>
+											
 											
 											<textarea class="tinymce form-control" name="feature" rows="10" cols="30">
-												<!---feature area start--->
-												<div class="col-md-4">
-														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Property Age : </span>10 Years</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Swiming Pool : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Parking : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">GYM : </span>Yes</li>
-														</ul>
-													</div>
-													<div class="col-md-4">
-														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Type : </span>Apartment</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Security : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Dining Capacity : </span>10 People</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Church/Temple  : </span>No</li>
-														
-														</ul>
-													</div>
-													<div class="col-md-4">
-														<ul>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">3rd Party : </span>No</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Elevator : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">CCTV : </span>Yes</li>
-														<li class="mb-3"><span class="text-secondary font-weight-bold">Water Supply : </span>Ground Water / Tank</li>
-														</ul>
-													</div>
-												<!---feature area end---->
+												
 											</textarea>
 											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
 										</div>

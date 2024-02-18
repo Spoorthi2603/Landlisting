@@ -70,13 +70,6 @@ include("config.php");
                                     <div class="col-md-6 col-lg-2">
                                         <div class="form-group">
                                             <select class="form-control" name="type">
-                                                <option value="">Select Type</option>
-												<option value="apartment">Apartment</option>
-												<option value="flat">Flat</option>
-												<option value="building">Building</option>
-												<option value="house">House</option>
-												<option value="villa">Villa</option>
-												<option value="office">Office</option>
                                                 <option value="land">land</option>
 
                                             </select>

@@ -131,11 +131,7 @@ include("config.php");
                             <div class="bg-gray property-quantity px-4 pt-4 w-100">
                                 <ul>
                                     <li><span class="text-secondary"><?php echo $row['12'];?></span> Sqft</li>
-                                    <li><span class="text-secondary"><?php echo $row['6'];?></span> Bedroom</li>
-                                    <li><span class="text-secondary"><?php echo $row['7'];?></span> Bathroom</li>
-                                    <li><span class="text-secondary"><?php echo $row['8'];?></span> Balcony</li>
-                                    <li><span class="text-secondary"><?php echo $row['10'];?></span> Hall</li>
-                                    <li><span class="text-secondary"><?php echo $row['9'];?></span> Kitchen</li>
+                                    
                                 </ul>
                             </div>
                             <h4 class="text-secondary my-4">Description</h4>
@@ -143,7 +139,7 @@ include("config.php");
                             
                             <h5 class="mt-5 mb-4 text-secondary">Property Summary</h5>
                             <div  class="table-striped font-14 pb-2">
-                                <table class="w-100"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                <table class="w-100">
                                     <tbody>
                                         <tr>
                                             <td>BHK :</td>
