@@ -71,7 +71,7 @@ if(isset($_POST['send']))
 	</div>
 </div>
 --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
@@ -97,7 +97,7 @@ if(isset($_POST['send']))
             </div>
         </div> -->
         <!--	Banner -->
-		<!-- FOR MORE PROJECTS visit: codeastro.com -->
+		
         <!--	Contact Information -->
         <div class="full-row">
             <div class="container">
@@ -139,7 +139,7 @@ if(isset($_POST['send']))
 								<h2 class="text-secondary double-down-line text-center mb-5">Get In Touch</h2>
 								<?php echo $msg; ?><?php echo $error; ?>
 							</div>
-						</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<form class="w-100" action="#" method="post">
