@@ -4,7 +4,7 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 ///code								
-?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@ include("config.php");
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Fonts
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
@@ -59,28 +59,7 @@ include("config.php");
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
-        <!--	Header end  -->
-        <!-- FOR MORE PROJECTS visit: codeastro.com -->
-        <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Property Grid</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Property Grid</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-         <!--	Banner   --->
-        
+        <!--	Header end  -->             
         <!--	Property Grid
 		===============================================================-->
         <div class="full-row">
@@ -103,7 +82,7 @@ include("config.php");
                                         <div class="sale bg-success text-white">For <?php echo $row['5'];?></div>
                                         <div class="price text-primary text-capitalize">$<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
                                         
-                                    </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                    </div>
                                     <div class="featured-thumb-data shadow-one">
                                         <div class="p-4">
                                             <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
@@ -115,7 +94,7 @@ include("config.php");
                                     </div>
                                 </div>
                             </div>
-                            <?php } ?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            <?php } ?>
                             
 
                             
@@ -144,7 +123,7 @@ include("config.php");
                             <div class="input-group mb-2 mr-sm-2">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">$</div>
-                                </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                </div>
                                 <input type="text" class="form-control" name="amount" placeholder="Property Price">
                             </div>
                             <label class="sr-only">Month</label>
